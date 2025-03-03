@@ -1,0 +1,13 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "category": "misc",
+  "ingredients": [
+    {
+      "item": "laur_mod:mythist_block"
+    }
+  ],
+  "result": {
+    "item": "laur_mod:mythist",
+    "count": 9
+  }
+}

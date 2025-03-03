@@ -1,0 +1,10 @@
+{
+  "parent": "block/outer_stairs",
+  "textures": {
+    "particle": "laur_mod:block/fluty_planks",
+    "bottom": "laur_mod:block/fluty_planks",
+    "top": "laur_mod:block/fluty_planks",
+    "side": "laur_mod:block/fluty_planks"
+  },
+  "render_type": "solid"
+}

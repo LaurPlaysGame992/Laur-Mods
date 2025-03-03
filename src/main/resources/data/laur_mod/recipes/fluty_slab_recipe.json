@@ -1,0 +1,17 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "group": "wooden_slab",
+  "category": "building",
+  "pattern": [
+    "aaa"
+  ],
+  "key": {
+    "a": {
+      "item": "laur_mod:fluty_planks"
+    }
+  },
+  "result": {
+    "item": "laur_mod:fluty_slab",
+    "count": 6
+  }
+}

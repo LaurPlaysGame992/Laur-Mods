@@ -1,0 +1,13 @@
+{
+  "parent": "block/cube",
+  "textures": {
+    "down": "laur_mod:block/fluty_log_top",
+    "up": "laur_mod:block/fluty_log_top",
+    "north": "laur_mod:block/fluty_log_side",
+    "east": "laur_mod:block/fluty_log_side",
+    "south": "laur_mod:block/fluty_log_side",
+    "west": "laur_mod:block/fluty_log_side",
+    "particle": "laur_mod:block/fluty_log_top"
+  },
+  "render_type": "solid"
+}

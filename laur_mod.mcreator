@@ -1,0 +1,770 @@
+{
+  "mod_elements": [
+    {
+      "name": "Mythist",
+      "type": "item",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "mythist",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/laur_mod/models/item/mythist.json",
+          "src/main/java/net/mcreator/laurmod/item/MythistItem.java"
+        ]
+      }
+    },
+    {
+      "name": "MythistOre",
+      "type": "block",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "mythist_ore",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/laur_mod/models/block/mythist_ore.json",
+          "src/main/resources/data/laur_mod/loot_tables/blocks/mythist_ore.json",
+          "src/main/resources/data/laur_mod/forge/biome_modifier/mythist_ore_biome_modifier.json",
+          "src/main/resources/assets/laur_mod/models/item/mythist_ore.json",
+          "src/main/resources/assets/laur_mod/blockstates/mythist_ore.json",
+          "src/main/java/net/mcreator/laurmod/block/MythistOreBlock.java",
+          "src/main/resources/data/laur_mod/worldgen/placed_feature/mythist_ore.json",
+          "src/main/resources/data/laur_mod/worldgen/configured_feature/mythist_ore.json"
+        ]
+      }
+    },
+    {
+      "name": "MythistBlock",
+      "type": "block",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "mythist_block",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/laur_mod/loot_tables/blocks/mythist_block.json",
+          "src/main/resources/assets/laur_mod/blockstates/mythist_block.json",
+          "src/main/java/net/mcreator/laurmod/block/MythistBlockBlock.java",
+          "src/main/resources/assets/laur_mod/models/item/mythist_block.json",
+          "src/main/resources/assets/laur_mod/models/block/mythist_block.json"
+        ]
+      }
+    },
+    {
+      "name": "MythistOreBlockRecipe",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "mythist_ore_block_recipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/laur_mod/recipes/mythist_ore_block_recipe.json"
+        ]
+      }
+    },
+    {
+      "name": "MythistBlockOreRecipe",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "mythist_block_ore_recipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/laur_mod/recipes/mythist_block_ore_recipe.json"
+        ]
+      }
+    },
+    {
+      "name": "MythistOreSmelting",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "mythist_ore_smelting",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/laur_mod/recipes/mythist_ore_smelting.json"
+        ]
+      }
+    },
+    {
+      "name": "MythistsArmor",
+      "type": "armor",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "mythists_armor",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/laur_mod/models/item/mythists_armor_helmet.json",
+          "src/main/java/net/mcreator/laurmod/item/MythistsArmorItem.java",
+          "src/main/resources/assets/laur_mod/models/item/mythists_armor_chestplate.json",
+          "src/main/resources/assets/laur_mod/models/item/mythists_armor_boots.json",
+          "src/main/resources/assets/laur_mod/models/item/mythists_armor_leggings.json"
+        ]
+      }
+    },
+    {
+      "name": "MythistsArmorHelmetRecipe",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "mythists_armor_helmet_recipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/laur_mod/recipes/mythists_armor_helmet_recipe.json"
+        ]
+      }
+    },
+    {
+      "name": "MythistsArmorChestplateRecipe",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "mythists_armor_chestplate_recipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/laur_mod/recipes/mythists_armor_chestplate_recipe.json"
+        ]
+      }
+    },
+    {
+      "name": "MythistsArmorLeggingsRecipe",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "mythists_armor_leggings_recipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/laur_mod/recipes/mythists_armor_leggings_recipe.json"
+        ]
+      }
+    },
+    {
+      "name": "MythistsArmorBootsRecipe",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "mythists_armor_boots_recipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/laur_mod/recipes/mythists_armor_boots_recipe.json"
+        ]
+      }
+    },
+    {
+      "name": "MythisttPickaxe",
+      "type": "tool",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "mythistt_pickaxe",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/laurmod/item/MythisttPickaxeItem.java",
+          "src/main/resources/assets/laur_mod/models/item/mythistt_pickaxe.json"
+        ]
+      }
+    },
+    {
+      "name": "MythisttAxe",
+      "type": "tool",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "mythistt_axe",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/laurmod/item/MythisttAxeItem.java",
+          "src/main/resources/assets/laur_mod/models/item/mythistt_axe.json"
+        ]
+      }
+    },
+    {
+      "name": "MythisttSword",
+      "type": "tool",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "mythistt_sword",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/laurmod/item/MythisttSwordItem.java",
+          "src/main/resources/assets/laur_mod/models/item/mythistt_sword.json"
+        ]
+      }
+    },
+    {
+      "name": "MythisttShovel",
+      "type": "tool",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "mythistt_shovel",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/laurmod/item/MythisttShovelItem.java",
+          "src/main/resources/assets/laur_mod/models/item/mythistt_shovel.json"
+        ]
+      }
+    },
+    {
+      "name": "MythisttHoe",
+      "type": "tool",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "mythistt_hoe",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/laurmod/item/MythisttHoeItem.java",
+          "src/main/resources/assets/laur_mod/models/item/mythistt_hoe.json"
+        ]
+      }
+    },
+    {
+      "name": "MythisttPickaxeRecipe",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "mythistt_pickaxe_recipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/laur_mod/recipes/mythistt_pickaxe_recipe.json"
+        ]
+      }
+    },
+    {
+      "name": "MythisttAxeRecipe",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "mythistt_axe_recipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/laur_mod/recipes/mythistt_axe_recipe.json"
+        ]
+      }
+    },
+    {
+      "name": "MythisttSwordRecipe",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "mythistt_sword_recipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/laur_mod/recipes/mythistt_sword_recipe.json"
+        ]
+      }
+    },
+    {
+      "name": "MythisttShovelRecipe",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "mythistt_shovel_recipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/laur_mod/recipes/mythistt_shovel_recipe.json"
+        ]
+      }
+    },
+    {
+      "name": "MythisttHoeRecipe",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "mythistt_hoe_recipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/laur_mod/recipes/mythistt_hoe_recipe.json"
+        ]
+      }
+    },
+    {
+      "name": "FlutyWood",
+      "type": "block",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "fluty_wood",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/laurmod/block/FlutyWoodBlock.java",
+          "src/main/resources/data/laur_mod/loot_tables/blocks/fluty_wood.json",
+          "src/main/resources/assets/laur_mod/models/item/fluty_wood.json",
+          "src/main/resources/assets/laur_mod/blockstates/fluty_wood.json",
+          "src/main/resources/assets/laur_mod/models/block/fluty_wood.json"
+        ]
+      }
+    },
+    {
+      "name": "FlutyLog",
+      "type": "block",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "fluty_log",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/laur_mod/models/item/fluty_log.json",
+          "src/main/java/net/mcreator/laurmod/block/FlutyLogBlock.java",
+          "src/main/resources/assets/laur_mod/blockstates/fluty_log.json",
+          "src/main/resources/data/laur_mod/loot_tables/blocks/fluty_log.json",
+          "src/main/resources/assets/laur_mod/models/block/fluty_log.json"
+        ]
+      }
+    },
+    {
+      "name": "FlutyPlanks",
+      "type": "block",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "fluty_planks",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/laur_mod/blockstates/fluty_planks.json",
+          "src/main/resources/data/laur_mod/loot_tables/blocks/fluty_planks.json",
+          "src/main/java/net/mcreator/laurmod/block/FlutyPlanksBlock.java",
+          "src/main/resources/assets/laur_mod/models/block/fluty_planks.json",
+          "src/main/resources/assets/laur_mod/models/item/fluty_planks.json"
+        ]
+      }
+    },
+    {
+      "name": "FlutyLeaves",
+      "type": "block",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "fluty_leaves",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/laur_mod/models/item/fluty_leaves.json",
+          "src/main/java/net/mcreator/laurmod/block/FlutyLeavesBlock.java",
+          "src/main/resources/data/laur_mod/loot_tables/blocks/fluty_leaves.json",
+          "src/main/resources/assets/laur_mod/blockstates/fluty_leaves.json",
+          "src/main/resources/assets/laur_mod/models/block/fluty_leaves.json"
+        ]
+      }
+    },
+    {
+      "name": "FlutyStairs",
+      "type": "block",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "fluty_stairs",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/laur_mod/models/block/fluty_stairs.json",
+          "src/main/resources/assets/laur_mod/models/item/fluty_stairs.json",
+          "src/main/resources/assets/laur_mod/models/block/fluty_stairs_outer.json",
+          "src/main/resources/assets/laur_mod/models/block/fluty_stairs_inner.json",
+          "src/main/resources/assets/laur_mod/blockstates/fluty_stairs.json",
+          "src/main/java/net/mcreator/laurmod/block/FlutyStairsBlock.java",
+          "src/main/resources/data/laur_mod/loot_tables/blocks/fluty_stairs.json"
+        ]
+      }
+    },
+    {
+      "name": "FlutySlab",
+      "type": "block",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "fluty_slab",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/laur_mod/models/block/fluty_slab.json",
+          "src/main/resources/assets/laur_mod/models/block/fluty_slab_full.json",
+          "src/main/resources/assets/laur_mod/models/block/fluty_slab_top.json",
+          "src/main/resources/data/laur_mod/loot_tables/blocks/fluty_slab.json",
+          "src/main/resources/assets/laur_mod/models/item/fluty_slab.json",
+          "src/main/java/net/mcreator/laurmod/block/FlutySlabBlock.java",
+          "src/main/resources/assets/laur_mod/blockstates/fluty_slab.json"
+        ]
+      }
+    },
+    {
+      "name": "FlutyFence",
+      "type": "block",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "fluty_fence",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/laur_mod/models/item/fluty_fence.json",
+          "src/main/resources/data/laur_mod/loot_tables/blocks/fluty_fence.json",
+          "src/main/resources/assets/laur_mod/blockstates/fluty_fence.json",
+          "src/main/java/net/mcreator/laurmod/block/FlutyFenceBlock.java",
+          "src/main/resources/assets/laur_mod/models/block/fluty_fence_post.json",
+          "src/main/resources/assets/laur_mod/models/block/fluty_fence_inventory.json",
+          "src/main/resources/assets/laur_mod/models/block/fluty_fence.json"
+        ]
+      }
+    },
+    {
+      "name": "FlutyFenceGate",
+      "type": "block",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "fluty_fence_gate",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/laur_mod/models/block/fluty_fence_gate_wall.json",
+          "src/main/resources/assets/laur_mod/models/item/fluty_fence_gate.json",
+          "src/main/resources/assets/laur_mod/models/block/fluty_fence_gate.json",
+          "src/main/java/net/mcreator/laurmod/block/FlutyFenceGateBlock.java",
+          "src/main/resources/assets/laur_mod/blockstates/fluty_fence_gate.json",
+          "src/main/resources/data/laur_mod/loot_tables/blocks/fluty_fence_gate.json",
+          "src/main/resources/assets/laur_mod/models/block/fluty_fence_gate_wall_open.json",
+          "src/main/resources/assets/laur_mod/models/block/fluty_fence_gate_open.json"
+        ]
+      }
+    },
+    {
+      "name": "FlutyPressurePlate",
+      "type": "block",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "fluty_pressure_plate",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/laur_mod/loot_tables/blocks/fluty_pressure_plate.json",
+          "src/main/resources/assets/laur_mod/models/block/fluty_pressure_plate.json",
+          "src/main/java/net/mcreator/laurmod/block/FlutyPressurePlateBlock.java",
+          "src/main/resources/assets/laur_mod/models/item/fluty_pressure_plate.json",
+          "src/main/resources/assets/laur_mod/models/block/fluty_pressure_plate_down.json",
+          "src/main/resources/assets/laur_mod/blockstates/fluty_pressure_plate.json"
+        ]
+      }
+    },
+    {
+      "name": "FlutyButton",
+      "type": "block",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "fluty_button",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/laur_mod/loot_tables/blocks/fluty_button.json",
+          "src/main/java/net/mcreator/laurmod/block/FlutyButtonBlock.java",
+          "src/main/resources/assets/laur_mod/blockstates/fluty_button.json",
+          "src/main/resources/assets/laur_mod/models/block/fluty_button_pressed.json",
+          "src/main/resources/assets/laur_mod/models/block/fluty_button_inventory.json",
+          "src/main/resources/assets/laur_mod/models/block/fluty_button.json",
+          "src/main/resources/assets/laur_mod/models/item/fluty_button.json"
+        ]
+      }
+    },
+    {
+      "name": "FlutyWoodRecipe",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "fluty_wood_recipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/laur_mod/recipes/fluty_wood_recipe.json"
+        ]
+      }
+    },
+    {
+      "name": "FlutyPlanksLogRecipe",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "fluty_planks_log_recipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/laur_mod/recipes/fluty_planks_log_recipe.json"
+        ]
+      }
+    },
+    {
+      "name": "FlutyPlanksWoodRecipe",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "fluty_planks_wood_recipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/laur_mod/recipes/fluty_planks_wood_recipe.json"
+        ]
+      }
+    },
+    {
+      "name": "FlutyStairsRecipe",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "fluty_stairs_recipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/laur_mod/recipes/fluty_stairs_recipe.json"
+        ]
+      }
+    },
+    {
+      "name": "FlutySlabRecipe",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "fluty_slab_recipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/laur_mod/recipes/fluty_slab_recipe.json"
+        ]
+      }
+    },
+    {
+      "name": "FlutyFenceRecipe",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "fluty_fence_recipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/laur_mod/recipes/fluty_fence_recipe.json"
+        ]
+      }
+    },
+    {
+      "name": "FlutyFenceGateRecipe",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "fluty_fence_gate_recipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/laur_mod/recipes/fluty_fence_gate_recipe.json"
+        ]
+      }
+    },
+    {
+      "name": "FlutyPressurePlateRecipe",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "fluty_pressure_plate_recipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/laur_mod/recipes/fluty_pressure_plate_recipe.json"
+        ]
+      }
+    },
+    {
+      "name": "FlutyButtonRecipe",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "fluty_button_recipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/laur_mod/recipes/fluty_button_recipe.json"
+        ]
+      }
+    },
+    {
+      "name": "FlutyStickRecipe",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "fluty_stick_recipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/laur_mod/recipes/fluty_stick_recipe.json"
+        ]
+      }
+    },
+    {
+      "name": "MerecenisuBlock",
+      "type": "block",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "merecenisu_block",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/laurmod/block/MerecenisuBlockBlock.java",
+          "src/main/resources/data/laur_mod/loot_tables/blocks/merecenisu_block.json",
+          "src/main/resources/assets/laur_mod/models/block/merecenisu_block.json",
+          "src/main/resources/assets/laur_mod/models/item/merecenisu_block.json",
+          "src/main/resources/assets/laur_mod/blockstates/merecenisu_block.json"
+        ]
+      }
+    },
+    {
+      "name": "LaurModsCombat",
+      "type": "tab",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "laur_mods_combat",
+      "metadata": {
+        "files": []
+      }
+    },
+    {
+      "name": "LaurModsBlocks",
+      "type": "tab",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "laur_mods_blocks",
+      "metadata": {
+        "files": []
+      }
+    },
+    {
+      "name": "LaurModsTool",
+      "type": "tab",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "laur_mods_tool",
+      "metadata": {
+        "files": []
+      }
+    },
+    {
+      "name": "Fluty",
+      "type": "biome",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "fluty",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/laur_mod/worldgen/configured_feature/fluty_tree.json",
+          "src/main/resources/data/laur_mod/worldgen/biome/fluty.json",
+          "src/main/resources/data/laur_mod/worldgen/placed_feature/fluty_tree.json",
+          "src/main/java/net/mcreator/laurmod/world/features/treedecorators/FlutyFruitDecorator.java"
+        ]
+      }
+    },
+    {
+      "name": "NiceWoodForFluty",
+      "type": "achievement",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "nice_wood_for_fluty",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/laur_mod/advancements/nice_wood_for_fluty.json"
+        ]
+      }
+    },
+    {
+      "name": "MerecenisuBodyBlock",
+      "type": "block",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "merecenisu_body_block",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/laurmod/block/MerecenisuBodyBlockBlock.java",
+          "src/main/resources/assets/laur_mod/models/item/merecenisu_body_block.json",
+          "src/main/resources/assets/laur_mod/models/block/merecenisu_body_block.json",
+          "src/main/resources/assets/laur_mod/blockstates/merecenisu_body_block.json",
+          "src/main/resources/data/laur_mod/loot_tables/blocks/merecenisu_body_block.json"
+        ]
+      }
+    }
+  ],
+  "variable_elements": [],
+  "sound_elements": [],
+  "tag_elements": {
+    "BIOMES:minecraft:has_structure/stronghold": [
+      "~CUSTOM:Fluty"
+    ],
+    "BLOCKS:minecraft:needs_iron_tool": [
+      "~CUSTOM:MythistBlock",
+      "~CUSTOM:MythistOre"
+    ],
+    "ITEMS:minecraft:pickaxes": [
+      "~CUSTOM:MythisttPickaxe"
+    ],
+    "BIOMES:minecraft:has_structure/mineshaft": [
+      "~CUSTOM:Fluty"
+    ],
+    "ITEMS:minecraft:hoes": [
+      "~CUSTOM:MythisttHoe"
+    ],
+    "BLOCKS:minecraft:leaves": [
+      "~CUSTOM:FlutyLeaves"
+    ],
+    "BLOCKS:minecraft:mineable/pickaxe": [
+      "~CUSTOM:MerecenisuBlock",
+      "~CUSTOM:MythistBlock",
+      "~CUSTOM:MythistOre"
+    ],
+    "BLOCKS:minecraft:mineable/axe": [
+      "~CUSTOM:FlutyPlanks",
+      "~CUSTOM:FlutyLog",
+      "~CUSTOM:FlutyWood"
+    ],
+    "BLOCKS:minecraft:slabs": [
+      "~CUSTOM:FlutySlab"
+    ],
+    "BLOCKS:minecraft:fences": [
+      "~CUSTOM:FlutyFence"
+    ],
+    "BIOMES:minecraft:has_structure/shipwreck": [
+      "~CUSTOM:Fluty"
+    ],
+    "ITEMS:minecraft:axes": [
+      "~CUSTOM:MythisttAxe"
+    ],
+    "BLOCKS:minecraft:stairs": [
+      "~CUSTOM:FlutyStairs"
+    ],
+    "ITEMS:minecraft:swords": [
+      "~CUSTOM:MythisttSword"
+    ],
+    "BIOMES:minecraft:has_structure/ruined_portal_standard": [
+      "~CUSTOM:Fluty"
+    ],
+    "ITEMS:minecraft:shovels": [
+      "~CUSTOM:MythisttShovel"
+    ]
+  },
+  "tab_element_order": {},
+  "language_map": {
+    "en_us": {
+      "item.laur_mod.mythists_armor_leggings": "Mythists Leggings",
+      "block.laur_mod.fluty_pressure_plate": "Fluty Pressure Plate",
+      "biome.laur_mod.fluty": "Fluty",
+      "block.laur_mod.mythist_block": "Block of Mythist",
+      "advancements.nice_wood_for_fluty.title": "Nice Wood For Fluty",
+      "block.laur_mod.fluty_planks": "Fluty Planks",
+      "item.laur_mod.mythistt_sword": "Mythistt Sword",
+      "item.laur_mod.mythists_armor_helmet": "Mythists Helmet",
+      "block.laur_mod.merecenisu_body_block": "Merecenisu Body Block",
+      "item.laur_mod.mythistt_shovel": "Mythistt Shovel",
+      "block.laur_mod.mythist_ore": "Mythist Ore",
+      "block.laur_mod.fluty_stairs": "Fluty Stairs",
+      "block.laur_mod.fluty_fence": "Fluty Fence",
+      "item.laur_mod.mythistt_pickaxe": "Mythistt Pickaxe",
+      "block.laur_mod.fluty_wood": "Fluty Wood",
+      "item_group.laur_mod.laur_mods_blocks": "Laur Mods Blocks",
+      "block.laur_mod.fluty_slab": "Fluty Slab",
+      "item_group.laur_mod.laur_mods_tool": "Laur Mods Tool",
+      "item.laur_mod.mythistt_hoe": "Mythistt Hoe",
+      "block.laur_mod.merecenisu_block": "Merecenisu Block",
+      "item.laur_mod.mythists_armor_boots": "Mythists Boots",
+      "item.laur_mod.mythistt_axe": "Mythistt Axe",
+      "advancements.nice_wood_for_fluty.descr": "You Breaked some Fluty Wood",
+      "item.laur_mod.mythists_armor_chestplate": "Mythists Chestplate",
+      "block.laur_mod.fluty_fence_gate": "Fluty Fence Gate",
+      "block.laur_mod.fluty_button": "Fluty Button",
+      "item.laur_mod.mythist": "Mythist",
+      "item_group.laur_mod.laur_mods_combat": "Laur Mods Combat",
+      "block.laur_mod.fluty_leaves": "Fluty Leaves",
+      "block.laur_mod.fluty_log": "Fluty Log"
+    }
+  },
+  "foldersRoot": {
+    "name": "~",
+    "children": []
+  },
+  "workspaceSettings": {
+    "modid": "laur_mod",
+    "modName": "Laur Mod",
+    "version": "1.0.0",
+    "author": "Pc, MCreator",
+    "websiteURL": "https://mcreator.net",
+    "license": "Not specified",
+    "serverSideOnly": false,
+    "requiredMods": [],
+    "dependencies": [],
+    "dependants": [],
+    "mcreatorDependencies": [],
+    "currentGenerator": "forge-1.20.1",
+    "modElementsPackage": "net.mcreator.laurmod"
+  },
+  "mcreatorVersion": 202400452410
+}

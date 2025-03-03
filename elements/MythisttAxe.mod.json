@@ -1,0 +1,39 @@
+{
+  "_fv": 73,
+  "_type": "tool",
+  "definition": {
+    "toolType": "Axe",
+    "renderType": 0,
+    "blockingRenderType": 0,
+    "texture": "axe",
+    "customModelName": "Normal",
+    "blockingModelName": "Normal blocking",
+    "name": "Mythistt Axe",
+    "specialInformation": {
+      "fixedValue": []
+    },
+    "creativeTabs": [
+      {
+        "value": "CUSTOM:LaurModsTool"
+      }
+    ],
+    "efficiency": 12.0,
+    "attackSpeed": 3.0,
+    "enchantability": 43,
+    "damageVsEntity": 28.0,
+    "usageCount": 1219,
+    "glowCondition": {
+      "fixedValue": false
+    },
+    "repairItems": [
+      {
+        "value": "CUSTOM:Mythist"
+      }
+    ],
+    "immuneToFire": false,
+    "blockDropsTier": "DIAMOND",
+    "blocksAffected": [],
+    "stayInGridWhenCrafting": false,
+    "damageOnCrafting": false
+  }
+}

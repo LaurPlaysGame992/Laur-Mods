@@ -1,0 +1,13 @@
+{
+  "variants": {
+    "type=bottom": {
+      "model": "laur_mod:block/fluty_slab"
+    },
+    "type=top": {
+      "model": "laur_mod:block/fluty_slab_top"
+    },
+    "type=double": {
+      "model": "laur_mod:block/fluty_slab_full"
+    }
+  }
+}

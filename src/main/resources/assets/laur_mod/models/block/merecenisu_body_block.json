@@ -1,0 +1,13 @@
+{
+  "parent": "block/cube",
+  "textures": {
+    "down": "laur_mod:block/merecenisblock",
+    "up": "laur_mod:block/merecenisblock",
+    "north": "laur_mod:block/merecenisblock",
+    "east": "laur_mod:block/merecenisblock",
+    "south": "laur_mod:block/merecenisblock",
+    "west": "laur_mod:block/merecenisblock",
+    "particle": "laur_mod:block/merecenisblock"
+  },
+  "render_type": "solid"
+}

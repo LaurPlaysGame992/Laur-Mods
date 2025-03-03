@@ -1,0 +1,54 @@
+{
+  "type": "minecraft:tree",
+  "config": {
+    "force_dirt": false,
+    "ignore_vines": true,
+    "minimum_size": {
+      "type": "minecraft:two_layers_feature_size",
+      "limit": 1,
+      "lower_size": 1,
+      "upper_size": 2
+    },
+    "dirt_provider": {
+      "type": "minecraft:simple_state_provider",
+      "state": {
+        "Name": "minecraft:coarse_dirt"
+      }
+    },
+    "trunk_provider": {
+      "type": "minecraft:simple_state_provider",
+      "state": {
+        "Name": "minecraft:grass_block",
+        "Properties": {
+          "snowy": "false"
+        }
+      }
+    },
+    "foliage_provider": {
+      "type": "minecraft:simple_state_provider",
+      "state": {
+        "Name": "laur_mod:fluty_log",
+        "Properties": {
+          "axis": "y"
+        }
+      }
+    },
+    "trunk_placer": {
+      "type": "minecraft:mega_jungle_trunk_placer",
+      "base_height": 8,
+      "height_rand_a": 2,
+      "height_rand_b": 19
+    },
+    "foliage_placer": {
+      "type": "minecraft:jungle_foliage_placer",
+      "radius": 2,
+      "offset": 0,
+      "height": 2
+    },
+    "decorators": [
+      {
+        "type": "laur_mod:fluty_tree_fruit_decorator"
+      }
+    ]
+  }
+}

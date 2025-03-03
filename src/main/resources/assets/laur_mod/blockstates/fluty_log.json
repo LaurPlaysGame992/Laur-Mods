@@ -1,0 +1,16 @@
+{
+  "variants": {
+    "axis=x": {
+      "model": "laur_mod:block/fluty_log",
+      "x": 90,
+      "y": 90
+    },
+    "axis=y": {
+      "model": "laur_mod:block/fluty_log"
+    },
+    "axis=z": {
+      "model": "laur_mod:block/fluty_log",
+      "x": 90
+    }
+  }
+}

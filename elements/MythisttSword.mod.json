@@ -1,0 +1,39 @@
+{
+  "_fv": 73,
+  "_type": "tool",
+  "definition": {
+    "toolType": "Sword",
+    "renderType": 0,
+    "blockingRenderType": 0,
+    "texture": "tool",
+    "customModelName": "Normal",
+    "blockingModelName": "Normal blocking",
+    "name": "Mythistt Sword",
+    "specialInformation": {
+      "fixedValue": []
+    },
+    "creativeTabs": [
+      {
+        "value": "CUSTOM:LaurModsCombat"
+      }
+    ],
+    "efficiency": 12.0,
+    "attackSpeed": 5.0,
+    "enchantability": 43,
+    "damageVsEntity": 19.0,
+    "usageCount": 1219,
+    "glowCondition": {
+      "fixedValue": false
+    },
+    "repairItems": [
+      {
+        "value": "CUSTOM:Mythist"
+      }
+    ],
+    "immuneToFire": false,
+    "blockDropsTier": "DIAMOND",
+    "blocksAffected": [],
+    "stayInGridWhenCrafting": false,
+    "damageOnCrafting": false
+  }
+}

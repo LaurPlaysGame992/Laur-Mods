@@ -1,0 +1,13 @@
+{
+  "parent": "block/cube",
+  "textures": {
+    "down": "laur_mod:block/merecenisu_city",
+    "up": "laur_mod:block/merecenisu_city",
+    "north": "laur_mod:block/merecenisu_city",
+    "east": "laur_mod:block/merecenisu_city",
+    "south": "laur_mod:block/merecenisu_city",
+    "west": "laur_mod:block/merecenisu_city",
+    "particle": "laur_mod:block/merecenisu_city"
+  },
+  "render_type": "solid"
+}

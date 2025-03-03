@@ -1,0 +1,8 @@
+{
+  "parent": "block/fence_post",
+  "textures": {
+    "texture": "laur_mod:block/fluty_planks",
+    "particle": "laur_mod:block/fluty_planks"
+  },
+  "render_type": "solid"
+}

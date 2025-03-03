@@ -1,0 +1,7 @@
+{
+  "parent": "item/generated",
+  "textures": {
+    "layer0": "laur_mod:item/merecenisu_city-removebg-preview"
+  },
+  "render_type": "translucent"
+}

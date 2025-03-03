@@ -1,0 +1,10 @@
+{
+  "type": "minecraft:smelting",
+  "category": "misc",
+  "experience": 0.7,
+  "cookingtime": 200,
+  "ingredient": {
+    "item": "laur_mod:mythist_ore"
+  },
+  "result": "laur_mod:mythist"
+}

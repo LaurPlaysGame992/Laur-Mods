@@ -1,0 +1,37 @@
+{
+  "display": {
+    "icon": {
+      "item": "laur_mod:fluty_wood"
+    },
+    "title": {
+      "translate": "advancements.nice_wood_for_fluty.title"
+    },
+    "description": {
+      "translate": "advancements.nice_wood_for_fluty.descr"
+    },
+    "frame": "task",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": true
+  },
+  "criteria": {
+    "nice_wood_for_fluty_0": {
+      "trigger": "minecraft:item_durability_changed",
+      "conditions": {
+        "item": {
+          "items": [
+            "laur_mod:fluty_log"
+          ],
+          "durability": {
+            "min": 0,
+            "max": 16000
+          }
+        }
+      }
+    }
+  },
+  "rewards": {
+    "experience": 50
+  },
+  "parent": "minecraft:story/root"
+}

@@ -1,0 +1,17 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "group": "wooden_pressure_plate",
+  "category": "redstone",
+  "pattern": [
+    "aa"
+  ],
+  "key": {
+    "a": {
+      "item": "laur_mod:fluty_planks"
+    }
+  },
+  "result": {
+    "item": "laur_mod:fluty_pressure_plate",
+    "count": 1
+  }
+}

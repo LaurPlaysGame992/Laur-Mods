@@ -1,0 +1,19 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "group": "wooden_stairs",
+  "category": "building",
+  "pattern": [
+    "a  ",
+    "aa ",
+    "aaa"
+  ],
+  "key": {
+    "a": {
+      "item": "laur_mod:fluty_planks"
+    }
+  },
+  "result": {
+    "item": "laur_mod:fluty_stairs",
+    "count": 4
+  }
+}
