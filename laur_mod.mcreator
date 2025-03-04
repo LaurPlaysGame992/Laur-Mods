@@ -715,8 +715,8 @@
   "tab_element_order": {},
   "language_map": {
     "en_us": {
-      "item.laur_mod.mythists_armor_leggings": "Mythists Leggings",
       "block.laur_mod.fluty_pressure_plate": "Fluty Pressure Plate",
+      "item.laur_mod.mythists_armor_leggings": "Mythists Leggings",
       "biome.laur_mod.fluty": "Fluty",
       "block.laur_mod.mythist_block": "Block of Mythist",
       "advancements.nice_wood_for_fluty.title": "Nice Wood For Fluty",
